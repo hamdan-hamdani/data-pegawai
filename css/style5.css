@@ -1,0 +1,247 @@
+/* * {
+    margin: 0;
+    padding: 0:
+} */
+
+body {
+    overflow: hidden;
+}
+
+.header {
+    /* border: 1px solid green; */
+    border-bottom: 3px solid silver;
+    position: relative;
+}
+
+a.gambar {
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    text-indent: -99999px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 10px;
+    left: 135px;
+}
+
+.content {
+    width: 1000px;
+    height: 1000px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.content .tambah {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    line-height: 30px;
+    color: white;
+    background-color: orange;
+    position: relative;
+    top: 53px;
+    left: 900px;
+}
+
+.content .kolom-tambah {
+    /* margin: 50px auto; */
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    position: absolute;
+    z-index: 9999;
+    left: 250px;
+    top: 49px;
+    background-color: white;
+    /* opacity: 0.8; */
+    display: none;
+}
+
+.content .tambah-data {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.content .tutup-tambah {
+    font-weight: bold;
+    position: relative;
+    left: 480px;
+    top: -50px;
+    color: red;
+    cursor: pointer;
+}
+
+.content .kolom-tambah input {
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 380px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.kolom-tambah select {
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 380px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.content .kolom-tambah .tombol-kirim {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    line-height: 30px;
+    color: white;
+    background-color: orange;
+    position: relative;
+    top: -10px;
+    left: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content .table {
+    position: relative;
+    top: 63px;
+}
+
+table.center th {
+    align-items: center;
+    justify-content: center;
+    line-height: 34px;
+    text-align: center;
+}
+
+thead tr th {
+    background-color: lightgrey;
+}
+
+table.center td {
+    align-items: center;
+    justify-content: center;
+    line-height: 34px;
+    text-align: center;
+}
+
+tbody a.hapus1 {
+    background-image: url(../img/delete.png);
+    background-origin: border-box;
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    text-indent: -9999px;
+    border: 0;
+    margin-right: 5px;
+}
+
+tbody a.edit1 {
+    background-image: url(../img/edit.png);
+    background-origin: border-box;
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    text-indent: -9999px;
+    border: 0;
+}
+
+.berhasil-dihapus {
+    width: 35%;
+    min-height: 300px;
+    position: absolute;
+    top: 6%;
+    left: 33%;
+    border-radius: 6px;
+    margin: 0 auto;
+    border: 2px solid #aaa;
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+    z-index: 3;
+    background-color: white;
+}
+
+.berhasil-dihapus .box-close .close:hover {
+    color: orange;
+}
+
+.berhasil-dihapus .box-content {
+    text-align: center;
+    padding-top: 28%;
+}
+
+.content .kolom-edit1 {
+    /* margin: 50px auto; */
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    position: absolute;
+    /* z-index: 999; */
+    left: 250px;
+    top: 49px;
+    background-color: white;
+    /* opacity: 0.8; */
+    /* display: none; */
+}
+
+.content .kolom-edit1 .edit1-data {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+    /* color: yellow; */
+}
+
+.content .kolom-edit1 .tutup-edit1 {
+    font-weight: bold;
+    position: relative;
+    left: 480px;
+    top: -50px;
+    color: red;
+    cursor: pointer;
+}
+
+
+.content .kolom-edit1 input {
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 380px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.content .kolom-edit1 .tombol-kirim-edit1 {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    line-height: 30px;
+    color: white;
+    background-color: saddlebrown;
+    position: relative;
+    top: -10px;
+    left: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.kolom-edit1 label {
+    margin-left: 12%;
+}
